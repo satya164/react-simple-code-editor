@@ -211,6 +211,7 @@ export default class Editor extends React.Component<Props, State> {
         ...last,
         selectionStart: input.selectionStart,
         selectionEnd: input.selectionEnd,
+        timestamp: Date.now(),
       };
     }
 
